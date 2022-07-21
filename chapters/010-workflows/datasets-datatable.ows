@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Datasets" position="(86.0, 264.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(341.0, 265.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations>
+		<arrow id="0" start="(87.00000000000007, 177.0)" end="(86.00000000000007, 231.0)" fill="#C1272D" />
+		<text id="1" type="text/plain" rect="(15.0, 111.0, 150.0, 80.0)" font-family=".AppleSystemUIFont" font-size="14">Datasets widget. Double click to open it and select a dataset.</text>
+		<arrow id="2" start="(346.0000000000001, 176.0)" end="(340.0000000000001, 230.0)" fill="#C1272D" />
+		<text id="3" type="text/plain" rect="(245.0, 111.0, 150.0, 80.0)" font-family=".AppleSystemUIFont" font-size="14">Data Table widget. Double clic the icon to see the data in a spreadsheet.</text>
+		<arrow id="4" start="(146.99999999999997, 342.0)" end="(125.9999999999999, 277.0)" fill="#39B54A" />
+		<text id="5" type="text/plain" rect="(75.0, 345.0, 150.0, 46.0)" font-family=".AppleSystemUIFont" font-size="14">The output of the File widget.</text>
+		<text id="6" type="text/plain" rect="(109.0, 395.0, 236.0, 64.0)" font-family=".AppleSystemUIFont" font-size="14">The communication channel. It passes the data from the Datasets widget to the Data Table.</text>
+		<arrow id="7" start="(230.00000000000006, 385.0)" end="(217.00000000000006, 270.0)" fill="#39B54A" />
+		<text id="8" type="text/plain" rect="(259.0, 341.0, 150.0, 46.0)" font-family=".AppleSystemUIFont" font-size="14">The input of the Data Table widget.</text>
+		<arrow id="9" start="(289.0, 324.0)" end="(302.0, 275.0)" fill="#39B54A" />
+		<text id="10" type="text/plain" rect="(447.0, 168.0, 150.0, 97.0)" font-family=".AppleSystemUIFont" font-size="14">The output of the Data Table transmits any data (rows) that are selected in the widget.</text>
+		<arrow id="11" start="(477.0, 283.99999999999994)" end="(375.0, 247.99999999999997)" fill="#39B54A" />
+		<text id="12" type="text/plain" rect="(445.0, 287.0, 150.0, 166.0)" font-family=".AppleSystemUIFont" font-size="14">The output of the Data Table is not used, hence a dashed line. Attach another Data Table to its output to observe the effect of data selection.</text>
+		<arrow id="13" start="(122.0, 51.0)" end="(9.0, 50.0)" fill="#000" />
+		<text id="14" type="text/plain" rect="(127.0, 31.0, 312.0, 48.0)" font-family=".AppleSystemUIFont" font-size="14">This toolbar is minimized. Click on a double arrow to see its expanded version.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\xb2\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00(\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xe1\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xe6\x00\x00\x00\xac\x00\x00\x04\xa5\x00\x00\x02\xbb\x00\x00\x00\xe6\x00\x00\x00\xc8\x00\x00\x04\xa5\x00\x00\x02\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x00\xe6\x00\x00\x00\xc8\x00\x00\x04\xa5\x00\x00\x02\xbb', 'selected_id': 'core/HDI.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00U\x00\x00\x00L\x00\x00\x05\\\x00\x00\x02[\x00\x00\x00U\x00\x00\x00h\x00\x00\x05\\\x00\x00\x02[\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x00U\x00\x00\x00h\x00\x00\x05\\\x00\x00\x02[', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
